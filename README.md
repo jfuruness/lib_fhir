@@ -20,12 +20,20 @@ This package does the proiject for 5810 for FHIR
 
 ## Package Description
 
-TODO
+This package performs basic FHIR operations on patient data
+
+This includes:
+* Uploading a patient
+* downloading a patient
+* Updating a patient
+* Deleting a patient
 
 ## Usage
 * [lib_fhir](#lib_fhir)
 
-TODO
+```
+lib_fhir
+```
 
 ## Installation
 * [lib_fhir](#lib_fhir)
@@ -35,12 +43,6 @@ Install python and pip if you have not already. Then run:
 ```bash
 pip3 install pip --upgrade
 pip3 install wheel
-```
-
-For production:
-
-```bash
-pip3 install git@github.com:jfuruness/lib_fhir.git
 ```
 
 This will install the package and all of it's python dependencies.
