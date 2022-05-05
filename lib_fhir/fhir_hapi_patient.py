@@ -20,6 +20,8 @@ class FHIRHAPIPatient(FHIRPatient):
                                "(FHIR Client; FHIR 4.0.1/R4; apache"),
                 "Accept-Encoding": "gzip"})
         data = r.json()
+        from pprint import pprint
+        pprint(data)
         id_ = data["entry"][0]["resource"]["id"]
         print(f"HaPI FHIR Patient with id {id}")
         return id_
